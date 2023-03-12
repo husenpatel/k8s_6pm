@@ -5,16 +5,16 @@ metadata:
 spec:
   replicas: 3
   selector:
-    app: myonlineapp
+    app: mynginx
     version: 2.6.1
   template:
     metaddata:
       labels:
-        app: myonlineapp
+        app: mynginx
         version: 2.6.1
       spec:
          containers:
          - name: myonllineapp-container
-           image: husenpatel/dockerrepo
+           image: nginx
            ports: 
            - containerPort: 8080
