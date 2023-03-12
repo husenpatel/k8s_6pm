@@ -1,0 +1,20 @@
+apiVersion: v1 
+kind: ReplicationController 
+metadata: 
+  name: myonlineapp
+sepc: 
+  replicas: 3
+  selector:
+    app: myonlineapp
+    version: 2.6.1
+  template:
+    metadata:
+     labels:
+      app: myonlineapp
+      version: 2.6.1
+    sepc: 
+      contaoners:
+      - name: myonlineapp-container
+      image: husenpatel/dockerrepo:1
+      ports:
+      - containerPort: 8080
