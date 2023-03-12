@@ -10,8 +10,8 @@ spec:
   template:
     metaddata:
       labels:
-        app:myonlineapp
-        version:2.6.1
+        app: myonlineapp
+        version: 2.6.1
       spec:
          containers:
          - name: myonllineapp-container
