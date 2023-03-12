@@ -1,7 +1,7 @@
 apiVersion: V1 
 kind: ReplicationController 
 metadata: 
-  name: myonlineapp
+  name: myonlineapp-rc
 sepc: 
   replicas: 3
   selector:
