@@ -8,7 +8,7 @@ spec:
     app: mynginx
     version: 2.6.1
   template:
-    metaddata:
+    metadata:
       labels:
         app: mynginx
         version: 2.6.1
