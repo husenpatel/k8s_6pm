@@ -1,4 +1,4 @@
-apiversion: v1
+apiversion: V1
 kind: ReplecationController
 metadata:
   name:myonlineapp-rc
